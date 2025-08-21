@@ -37,9 +37,15 @@
         <article class="text-center group">
           <div class="relative mb-6">
             <div class="w-48 h-48 mx-auto bg-gradient-to-br from-green-100 to-emerald-200 rounded-full flex items-center justify-center overflow-hidden">
-              <svg class="w-24 h-24 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
-              </svg>
+              <img 
+                src="/images/team/maximhaidash.jpg" 
+                alt="Maxim Haidash - Co-founder at RatIT" 
+                width="192"
+                height="192"
+                class="w-full h-full object-cover rounded-full"
+                loading="lazy"
+                style="opacity: 1;"
+              />
             </div>
           </div>
           <h4 class="text-xl font-semibold text-gray-900 mb-2">Maxim Haidash</h4>
@@ -53,9 +59,15 @@
         <article class="text-center group">
           <div class="relative mb-6">
             <div class="w-48 h-48 mx-auto bg-gradient-to-br from-orange-100 to-amber-200 rounded-full flex items-center justify-center overflow-hidden">
-              <svg class="w-24 h-24 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
-              </svg>
+              <img 
+                src="/images/team/victoriashepel.jpg" 
+                alt="Victoria Shepel - Full-Stack developer at RatIT" 
+                width="192"
+                height="192"
+                class="w-full h-full object-cover rounded-full"
+                loading="lazy"
+                style="opacity: 1;"
+              />
             </div>
           </div>
           <h4 class="text-xl font-semibold text-gray-900 mb-2">Victoria Shepel</h4>
