@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  /* Prevent layout shift for images */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: attr(width) / attr(height);
+  }
+
+  /* Prevent layout shift for all image containers */
+  .image-wrapper,
+  [class*="h-"],
+  [class*="w-"] {
+    contain: layout;
+  }
+
+  /* Force aspect ratio for common image containers */
+  .h-48 {
+    aspect-ratio: 16 / 9;
+  }
+
+  .h-80 {
+    aspect-ratio: 4 / 3;
+  }
+
+  .w-48.h-48 {
+    aspect-ratio: 1 / 1;
+  }
+
+  /* Prevent any layout shift */
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Ensure containers maintain their size */
+  .relative {
+    position: relative;
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+  }
+  
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+
+  /* Image loading styles */
+  .image-container {
+    @apply relative overflow-hidden;
+  }
+
+  .image-placeholder {
+    @apply absolute inset-0 bg-gray-200 animate-pulse;
+  }
+
+  .image-loaded {
+    @apply opacity-100;
+  }
+
+  .image-loading {
+    @apply opacity-0;
+  }
+
+  /* Prevent layout shift */
+  .no-layout-shift {
+    contain: layout style paint;
+  }
+
+  /* Fixed aspect ratio containers */
+  .aspect-square {
+    aspect-ratio: 1 / 1;
+  }
+
+  .aspect-video {
+    aspect-ratio: 16 / 9;
+  }
+
+  .aspect-photo {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/* Custom animations for image loading */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.image-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Additional layout shift prevention */
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure images don't cause layout shift */
+img[width][height] {
+  aspect-ratio: attr(width) / attr(height);
+}
+
+/* Force containers to maintain size */
+.h-48, .h-80, .w-48.h-48 {
+  min-height: inherit;
+  min-width: inherit;
+}
