@@ -13,13 +13,13 @@
         
         <!-- Project 1 -->
         <article class="group bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
-          <figure class="h-48 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center overflow-hidden">
+          <figure class="h-48 bg-gradient-to-br from-blue-100 to-indigo-200 overflow-hidden w-full">
             <img 
               src="/images/portfolio/lawzilla.jpeg" 
               alt="Lawzilla - Legal case referral platform" 
               width="400"
               height="192"
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover block"
               loading="lazy"
               style="opacity: 1;"
             />
@@ -40,13 +40,13 @@
 
         <!-- Project 2 -->
         <article class="group bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
-          <figure class="h-48 bg-gradient-to-br from-green-100 to-emerald-200 flex items-center justify-center overflow-hidden">
+          <figure class="h-48 bg-gradient-to-br from-green-100 to-emerald-200 overflow-hidden w-full">
             <img 
               src="/images/portfolio/Jobfair.png" 
               alt="Jobfair - Event management platform" 
               width="400"
               height="192"
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover block"
               loading="lazy"
               style="opacity: 1;"
             />
@@ -67,13 +67,13 @@
 
         <!-- Project 3 -->
         <article class="group bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
-          <figure class="h-48 bg-gradient-to-br from-purple-100 to-violet-200 flex items-center justify-center overflow-hidden">
+          <figure class="h-48 bg-gradient-to-br from-purple-100 to-violet-200 overflow-hidden w-full">
             <img 
               src="/images/portfolio/myatrealty.png" 
               alt="@atrealty - Real estate CRM system" 
               width="400"
               height="192"
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover block"
               loading="lazy"
               style="opacity: 1;"
             />
@@ -103,7 +103,10 @@
           <p class="text-blue-100 mb-6 max-w-2xl mx-auto">
             Tell us about your idea and we'll help bring it to life using modern technologies
           </p>
-          <a href="#contact" class="inline-block bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors" aria-label="Contact us to discuss your project">
+          <a href="https://calendly.com/ratitcorporate" 
+            target="_blank"
+            class="inline-block bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors" 
+            aria-label="Contact us to discuss your project">
             Discuss Project
           </a>
         </div>

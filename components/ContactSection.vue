@@ -46,8 +46,8 @@
               </div>
               <div>
                 <h4 class="font-semibold text-gray-900 mb-1">Email</h4>
-                <a href="mailto:tretynko.nikita.95@gmail.com" class="text-blue-600 hover:text-blue-700 transition-colors" aria-label="Send us an email">
-                  tretynko.nikita.95@gmail.com
+                <a href="mailto:ratitcorporate@gmail.com" class="text-blue-600 hover:text-blue-700 transition-colors" aria-label="Send us an email">
+                  ratitcorporate@gmail.com
                 </a>
               </div>
             </div>
@@ -101,7 +101,7 @@ useHead({
             {
               "@type": "ContactPoint",
               "contactType": "customer service",
-              "email": "tretynko.nikita.95@gmail.com",
+              "email": "ratitcorporate@gmail.com",
               "availableLanguage": "English"
             }
           ],

@@ -17,9 +17,7 @@
           <nav aria-label="Services navigation">
             <ul class="space-y-2" role="list">
               <li><a href="#portfolio" class="text-gray-300 hover:text-white transition-colors" aria-label="View our web development projects">Web Development</a></li>
-              <li><a href="#portfolio" class="text-gray-300 hover:text-white transition-colors" aria-label="View our mobile app projects">Mobile Applications</a></li>
-              <li><a href="#portfolio" class="text-gray-300 hover:text-white transition-colors" aria-label="View our cloud solutions">Cloud Solutions</a></li>
-              <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors" aria-label="Contact us for consulting services">Consulting</a></li>
+              <li><a href="#portfolio" class="text-gray-300 hover:text-white transition-colors" aria-label="View our web development projects">Web Design</a></li>
               <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors" aria-label="Contact us for support services">Support</a></li>
             </ul>
           </nav>
@@ -36,8 +34,8 @@
               </a>
             </p>
             <p>
-              <a href="mailto:tretynko.nikita.95@gmail.com" class="hover:text-white transition-colors" aria-label="Send us an email">
-                tretynko.nikita.95@gmail.com
+              <a href="mailto:ratitcorporate@gmail.com" class="hover:text-white transition-colors" aria-label="Send us an email">
+                ratitcorporate@gmail.com
               </a>
             </p>
           </address>
@@ -68,8 +66,8 @@ useHead({
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "RatIT",
-        "url": "https://ratit.com",
-        "logo": "https://ratit.com/images/logo/logo.svg",
+        "url": "https://rat-it.vercel.app/",
+        "logo": "https://rat-it.vercel.app/images/logo/logo.svg",
         "description": "Innovative IT solutions for modern business. We create quality products that help companies grow and develop.",
         "address": {
           "@type": "PostalAddress",
@@ -82,7 +80,7 @@ useHead({
             "@type": "ContactPoint",
             "telephone": "+1-234-567-890",
             "contactType": "customer service",
-            "email": "tretynko.nikita.95@gmail.com",
+            "email": "ratitcorporate@gmail.com",
             "availableLanguage": "English"
           }
         ],
@@ -111,24 +109,8 @@ useHead({
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Mobile Applications",
-                "description": "iOS and Android mobile app development"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Cloud Solutions",
-                "description": "Cloud infrastructure and deployment services"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Consulting",
-                "description": "IT consulting and digital transformation"
+                "name": "Web Design",
+                "description": "Custom web design and development"
               }
             },
             {
