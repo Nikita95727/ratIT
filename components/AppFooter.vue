@@ -34,8 +34,8 @@
               </a>
             </p>
             <p>
-              <a href="mailto:ratitcorporate@gmail.com" class="hover:text-white transition-colors" aria-label="Send us an email">
-                ratitcorporate@gmail.com
+              <a href="mailto:tretynko.nikita.95@gmail.com" class="hover:text-white transition-colors" aria-label="Send us an email">
+                tretynko.nikita.95@gmail.com
               </a>
             </p>
           </address>
@@ -66,7 +66,7 @@ useHead({
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "RatIT",
-        "url": "https://rat-it.vercel.app/",
+        "url": "https://rat-it.vercel.app",
         "logo": "https://rat-it.vercel.app/images/logo/logo.svg",
         "description": "Innovative IT solutions for modern business. We create quality products that help companies grow and develop.",
         "address": {
@@ -80,7 +80,7 @@ useHead({
             "@type": "ContactPoint",
             "telephone": "+1-234-567-890",
             "contactType": "customer service",
-            "email": "ratitcorporate@gmail.com",
+            "email": "tretynko.nikita.95@gmail.com",
             "availableLanguage": "English"
           }
         ],

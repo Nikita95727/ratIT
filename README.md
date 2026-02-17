@@ -115,6 +115,6 @@ MIT License
 
 ## Contact
 
-- Email: info@ratit.com
+- Email: tretynko.nikita.95@gmail.com
 - Phone: +1 (234) 567-890
 - Address: 123 Business Street, Tech District, NY 10001

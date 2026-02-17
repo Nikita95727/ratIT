@@ -8,7 +8,7 @@
         </p>
       </header>
 
-      <section class="grid md:grid-cols-3 lg:grid-cols-3 gap-8" aria-labelledby="team-members-heading">
+      <section class="grid md:grid-cols-2 lg:grid-cols-4 gap-8" aria-labelledby="team-members-heading">
         <h3 id="team-members-heading" class="sr-only">Team Members</h3>
         
         <!-- Team Member 1 -->
@@ -76,6 +76,28 @@
             Front-End expert with expertise in React, VueJS, HTML, CSS, JavaScript, TailwindCSS
           </p>
         </article>
+
+        <!-- Team Member 4 -->
+        <article class="text-center group">
+          <div class="relative mb-6">
+            <div class="w-48 h-48 mx-auto bg-gradient-to-br from-purple-100 to-violet-200 rounded-full flex items-center justify-center overflow-hidden">
+              <img 
+                src="/images/team/project-manager.png" 
+                alt="Sofia Titarenko - Project Manager at RatIT" 
+                width="192"
+                height="192"
+                class="w-full h-full object-cover rounded-full"
+                loading="lazy"
+                style="opacity: 1;"
+              />
+            </div>
+          </div>
+          <h4 class="text-xl font-semibold text-gray-900 mb-2">Sofia Titarenko</h4>
+          <p class="text-blue-600 font-medium mb-3">Project Manager</p>
+          <p class="text-gray-600 text-sm">
+            Project management and coordination of development processes
+          </p>
+        </article>
       </section>
 
       <!-- Additional Team Info -->
@@ -126,6 +148,13 @@ useHead({
             "jobTitle": "Full-Stack developer",
             "description": "Front-End expert with expertise in React, VueJS, HTML, CSS, JavaScript, TailwindCSS",
             "knowsAbout": ["React", "VueJS", "HTML", "CSS", "JavaScript", "TailwindCSS", "Front-End Development"]
+          },
+          {
+            "@type": "Person",
+            "name": "Sofia Titarenko",
+            "jobTitle": "Project Manager",
+            "description": "Project management and coordination of development processes",
+            "knowsAbout": ["Project Management", "Agile", "Team Coordination"]
           }
         ]
       })
